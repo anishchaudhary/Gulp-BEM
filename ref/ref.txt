@@ -1,0 +1,25 @@
+https://gist.github.com/feliperoberto/9793674 (sass-css compilation Browser sinc)
+https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js
+http://mathayward.com/modular-css-with-sass-and-bem/
+
+**Steps to run gulp and create 
+
+1. Install node.js
+2. Create project folder
+3. Open cmd 
+4. Write and run "npm init"
+5. Fill required fields(e.g. Name, author, etc.)
+6. Write "npm install gulp"
+7. Create gulpfile.js file in same directory folder
+8. Create task and run with cmd
+	a. In gulpfile.js file apply following:
+	   const gulp = require('gulp'); > 
+	   define other required variables as per task >
+	   define task and run.
+
+
+
+
+**To terminate job in cmd:
+Ctrl+c, y
+

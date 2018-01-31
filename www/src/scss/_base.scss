@@ -1,0 +1,38 @@
+//***base color & font
+$color--primary-light	:#92aeba; //Investis dove grey
+$color--primary			:#00aae7; //Investis electric blue
+$color--primary-dark	:#213540; //Investis dark blue
+$base--font-family 		:arial;
+$base--font-size 		:16px;
+$base--line-height		:20px;
+
+//***common variables
+$text--font-family		:Arial, sans-serif;
+
+$text--size-alpha		:24px;
+$text--size-beta		:20px;
+$text--size-gamma		:18px;
+$text--size-delta		:15px;
+
+$text--line-alpha		:40px;
+$text--line-beta		:36px;
+$text--line-gamma		:30px;
+$text--line-delta		:20px;
+
+$text--color-base		:$color--primary-dark;
+$text--color-alpha		:#fff;
+$text--color-beta		:#fdb813; //Investis yellow
+$text--color-gamma		:#7fad63; //Investis pale green (for positive)
+$text--color-delta		:#e81f64; //Investis intense pink (for negative)
+
+//reset & other mixins
+.reset-list{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.box{
+	@extend .reset-list;
+	display:inline-block;
+	width:100%;
+}

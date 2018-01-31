@@ -1,0 +1,88 @@
+//base scss
+@import '_base.scss';
+
+//layout scss
+@import '_layout.scss';
+
+//***common css
+html{font-size:$base--font-size;}
+.body--wrapper{
+	@extend .reset-list;
+	font-family:$base--font-family;
+	font-size:$base--font-size;
+	color:$text--color-base;
+}
+.text{
+	font-size:$base--font-size;
+	line-height:$base--line-height;
+}
+
+//article header
+.page--title {
+	@extend .reset-list;
+    font-family:$text--font-family;
+	font-size:$text--size-alpha;
+    font-weight:normal;
+    color:$text--color-alpha;
+}
+.page--title-two {
+	@extend .reset-list;
+    font-family:$text--font-family;
+	font-size:$text--size-beta;
+    font-weight:bold;
+    color:$text--color-beta;
+}
+.page--title-three {
+	@extend .reset-list;
+    font-family:$text--font-family;
+	font-size:$text--size-gamma;
+    font-weight:bold;
+    color:$text--color-beta;
+}
+
+
+//page header
+.header{
+	padding:12px 15px;
+	background-color:$color--primary-dark;
+	color:$text--color-alpha;
+}
+.header--title{
+	width:auto;
+	float:left;
+}
+.header--logo-img{
+	float:left;
+	margin-right:10px;
+}
+
+//main
+.main--wrapper{
+	padding:15px;
+	min-height:800px;
+}
+.aside{
+	
+}
+
+//footer
+.footer--wrapper{
+	padding:10px 15px;
+	border-top:1px solid $color--primary-light;
+}
+.footer--list{
+	@extend .reset-list;
+	&-item{float:left;width:auto;}
+}
+.footer--link{
+	text-decoration:none;
+	color:$text--color-alpha;
+	&-logo{border:none;}
+}
+.footer--disclaimer{
+	font-size:$text--size-delta;
+	text-align:right;
+}
+
+
+

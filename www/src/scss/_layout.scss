@@ -1,0 +1,42 @@
+//***layout
+.layout--wrapper{
+	@extend .box;
+}
+
+//header
+.header--wrapper{
+	@extend .box;
+	height:auto;
+}
+.header--wrapper-left{
+	float:left;
+}
+.header--wrapper-right{
+	float:right;
+}
+
+//main
+.main--wrapper{
+	@extend .box;
+}
+.main--wrapper-left{
+	width:20%;
+	float:left;
+}
+.main--wrapper-right{
+	width:80%;
+	float:right;
+}
+
+//footer
+.footer--wrapper{
+	@extend .box;
+}
+.footer--wrapper-left{
+	width:75%;
+	float:left;
+}
+.footer--wrapper-right{
+	width:25%;
+	float:right;
+}
